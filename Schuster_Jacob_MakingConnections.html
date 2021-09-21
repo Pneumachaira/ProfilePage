@@ -34,7 +34,7 @@
                 <p class="smallText">Fighter for truth and justice!</p>
                 <div id="editProfile">
                     <img src="icons/gear.png" alt="A gear">
-                    <a href="#"><p>edit profile</p></a>
+                    <a href="#"><p onclick="changeName(this)">edit profile</p></a>
                 </div>
             </div>
             <div id="education">
@@ -59,8 +59,8 @@
                             <h1>Todd E</h1>
                         </div>
                         <div class="accept">
-                            <img src="icons/accept-circle.png" alt="Accept">
-                            <img src="icons/close-circle.png" alt="Close">
+                            <img onclick="accept1()" src="icons/accept-circle.png" alt="Accept">
+                            <img onclick="close1()" src="icons/close-circle.png" alt="Close">
                         </div>
                     </div>
                     <div id="request2">
@@ -69,8 +69,8 @@
                             <h1>Phil K</h1>
                         </div>
                         <div class="accept">
-                            <img src="icons/accept-circle.png" alt="Accept">
-                            <img src="icons/close-circle.png" alt="Close">
+                            <img onclick="accept2()" src="icons/accept-circle.png" alt="Accept">
+                            <img onclick="close2()" src="icons/close-circle.png" alt="Close">
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
             <div id="connections">
                 <div id="people">
                     <div id="topPeople">
-                        <h1>500+</h1>
+                        <h1>418</h1>
                         <p>Your Connections</p>
                     </div>
                     <div id="bottomPeople">
@@ -104,5 +104,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
